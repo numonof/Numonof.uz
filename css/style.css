@@ -424,6 +424,7 @@ img {
         padding: 6px 18px;
         color: var(--text-color);
         margin: 0 15px 0 0;
+        cursor: pointer;
         border: 2px solid #C59925;
         border-radius: 30px;
         -webkit-border-radius: 30px;
@@ -779,6 +780,7 @@ img {
         background-color: var(--duble-text-color);
         border-radius: 6px;
         margin: 14px;
+        cursor: pointer;
         transition: all 0.3s ease;
     }
 
@@ -7577,6 +7579,21 @@ img {
         -ms-border-radius: 30px;
         -o-border-radius: 30px;
     }
+    
+    .btn:hover {
+        font-size: 18px;
+        font-weight: 500;
+        box-shadow: 0px 0px 5px #C59925;
+        color: #fff;
+        background-color: #C59925;
+        transition: 0.4s;
+        -webkit-transition: 0.4s;
+        -moz-transition: 0.4s;
+        -ms-transition: 0.4s;
+        -o-transition: 0.4s;
+
+    }
+
 
     /* Home section end */
     /* Aboute section */
@@ -8271,11 +8288,17 @@ img {
         font-weight: 500;
         font-style: normal;
         color: var(--duble-text-color);
+        cursor: pointer;
         letter-spacing: 1px;
         margin-left: 45%;
         padding: 8px 24px;
         border: 1px solid var(--duble-text-color);
         border-radius: 30px;
+        transition: 0.4s;
+    }
+    .portfolio-btn:hover{
+        color:  var(--text-color);
+        background-color: var(--duble-text-color);
     }
 /* Portfolio End */
    /*Contact Section  */
